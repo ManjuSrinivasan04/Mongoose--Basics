@@ -1,0 +1,91 @@
+What is NoSQL?
+
+        ==> NoSQL is an upcoming category of Database Management Systems. 
+        ==> Its main characteristic is its non-adherence to Relational Database Concepts. 
+        ==> NoSQL means "Not only SQL". 
+        ==> The concept of NoSQL databases grew with internet giants such as Google, Facebook, Amazon etc. who deal with gigantic volumes of data.
+        ==> When you use a relational database for massive volumes of data, the system starts getting slow in terms of response time.
+        ==> To overcome this, we could "scale up" our systems by upgrading our existing hardware. 
+        ==> The alternative to the above problem would be to distribute our database load on multiple hosts as the load increases. 
+        ==> This is known as "scaling out".
+        ==> NoSQL database is non-relational databases that scale-out better than relational databases and are designed with web applications in mind. 
+        ==> They do not use SQL to query the data and do not follow strict schemas like relational models. 
+        ==> With NoSQL, ACID (Atomicity, Consistency, Isolation, Durability) features are not guaranteed always.
+
+When should NoSQL be used:
+
+     --> When huge amount of data need to be stored and retrieved .
+     --> The relationship between the data you store is not that important
+     --> The data changing over time and is not structured.
+     --> Support of Constraints and Joins is not required at database level
+     --> The data is growing continuously and you need to scale the database regular to handle the data.
+
+
+What is NoSQL Database Technology?
+        
+        ** NoSQL database technology is a database type that stores information in JSON documents instead of columns and rows used by relational databases.
+        ** NoSQL databases are built to be flexible, scalable, and capable of rapidly responding to the data management demands of modern businesses.
+
+Why NoSQL?
+       
+       --> NoSQL databases have capabilities that traditional relational databases do not. They are especially useful for handling big data.
+       --> To store large volumes of data that might have little to no structure.
+       --> NoSQL databases do not limit the types of data that you can store together.
+       --> NoSQL databases also enable you to add new data types as your needs change.
+       --> With document-oriented databases, you can store data in one place without having to define the data type in advance.
+       --> To make the most of cloud computing and storage.
+       --> In order for a cloud solution to be scalable, the data must be easy to share across multiple servers.
+       --> To speed development.
+       --> When you are developing in rapid iterations or making frequent updates to the data structure, a relational database slows you down. 
+       --> However, because NoSQL data doesn’t need to be prepped ahead of time, you can make frequent updates to the data structure with minimal downtime.
+       --> To boost horizontal scalability.
+       --> The CAP (consistency, availability, and partition tolerance) theorem states that in any distributed system, only two of the three CAP properties can be used simultaneously. 
+       --> Adjusting these properties in favor of strong partition tolerance enables NoSQL users to boost horizontal scalability.
+
+
+Types of NoSQL database:
+Types of NoSQL databases and the name of the databases system that falls in that category are:
+      
+      ** Key value store: Memcached, Redis, Coherence, DynanoDB 
+      ** Tabular[Wide-column stores]: Hbase, Big Table, Accumulo, Cassandra 
+      ** Document based: MongoDB, CouchDB, Cloudant
+      ** Graph databases: Neo4j, Amazon Neptune and JanusGraph.
+
+Purpose :
+
+     ** Document: general purpose
+     ** Key-value: large amounts of data with simple lookup queries
+     ** Wide-column: large amounts of data with predictable query patterns
+     ** Graph: analyzing and traversing relationships between connected data
+
+NOSQL VS RDBMS :
+
+      ==> RDBMS is completely structured way of storing data.
+      ==> While the NoSQL is unstructured way of storing the data.
+      ==> And another main difference is that the amount of data stored mainly depends on the Physical memory of the system.
+      ==> While in the NoSQL you don't have any such limits as you can scale the system horizontally.
+      
+      ** You have high volume workloads that require large scale   >> Your workload volume is consistent and requires medium to large scale
+      ** Your workloads don't require ACID guarantees              >> ACID guarantees are required
+      ** Your data is dynamic and frequently changes               >> Your data is predictable and highly structured
+      ** Data can be expressed without relationships               >> Data is best expressed relationally
+      ** You need fast writes and write safety isn't critical	   >> Write safety is a requirement
+      ** Data retrieval is simple and tends to be flat	           >> You work with complex queries and reports
+      ** Your data requires a wide geographic distribution         >> Your users are more centralized
+      ** Your application will be deployed with public clouds	   >> Your application will be deployed to large, high-end hardware
+
+The five critical differences of SQL vs NoSQL:
+
+     1>> SQL databases are relational, NoSQL are non-relational.
+     2>> SQL databases use structured query language and have a predefined schema. NoSQL databases have dynamic schemas for unstructured data.
+     3>> SQL databases are vertically scalable, NoSQL databases are horizontally scalable.
+     4>> SQL databases are table based, while NoSQL databases are document, key-value, graph or wide-column stores.
+     5>> SQL databases are better for multi-row transactions, NoSQL are better for unstructured data like documents or JSON.
+
+Key highlights on SQL vs NoSQL:
+
+     ==> RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)	Non-relational or distributed database system.
+     ==> These databases have fixed or static or predefined schema	They have have dynamic schema
+     ==> These databases are not suited for hierarchical data storage.	These databases are best suited for hierarchical data storage.
+     ==> These databases are best suited for complex queries	These databases are not so good for complex queries
+     ==> Verticlly Scalable	Horizontally scalable

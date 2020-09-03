@@ -1,0 +1,53 @@
+Database options:
+
+         Regardless of whether you go with a SQL or NoSQL database (or both!), there are plenty of options to choose from.
+
+On-premise SQL database offerings include:
+
+       ** MySQL – as mentioned prior, the most popular open-source relational database
+       ** Microsoft SQL server – Microsoft’s enterprise version of SQL
+       ** PostgreSQL – and enterprise-level, open-source database focused on extensibility
+       ** Oracle – full-service (and expensive) SQL option
+       ** MariaDB – an enhanced version of MySQL, built by MySQL’s original developers
+
+The major cloud service platforms have their own SQL options:
+
+        ** AWS has:
+
+               >> RDS, their standard cloud SQL database
+               >> Aurora, which focuses on increased throughput and scalability
+
+        ** Microsoft Azure has:
+
+               >> Azure SQL Database, their managed database-as-a-service
+               >> Azure Database for MySQL, PostgreSQL, and MariaDB
+
+        ** Google Cloud Platform (GCP) has:
+        
+               >> Cloud SQL, which you can use for MySQL and PostgreSQL
+               >> Cloud Spanner, which combines elements of SQL and NoSQL
+
+
+On-premise NoSQL database options include:
+
+         ->> MongoDB – by far the most popular NoSQL database
+         ->> Redis – an open source, distributed, in-memory key-value database that is super fast
+         ->> Cassandra – free, open-source NoSQL database created by Facebook that focuses on scalability and high availability
+
+
+Cloud service providers offer plenty of NoSQL options as well:
+
+        ** AWS has:
+
+              >> DynamoDB, its managed NoSQL database
+              >> DocumentDB, a fast, scalable, highly-available MongoDB-compatible database
+
+        ** Microsoft Azure offers:
+
+              >> CosmosDB, its globally distributed, multi-model database
+
+        ** Google Cloud has:
+
+              >> Bigtable, its NoSQL wide-column database service
+              >> Cloud Datastore, its NoSQL document database service
+              >> Cloud Firestore, a cloud-native NoSQL document database that helps store and query app data

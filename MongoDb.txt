@@ -1,0 +1,43 @@
+What is Document databases?
+    --> Document databases store data in documents similar to JSON (JavaScript Object Notation) objects.
+    --> Each document contains pairs of fields and values.
+    --> The values can typically be a variety of types including things like strings, numbers, booleans, arrays, or objects,
+                and their structures typically align with objects developers are working with in code. 
+    --> Because of their variety of field value types and powerful query languages, 
+                document databases are great for a wide variety of use cases and can be used as a general purpose database. 
+    --> They can horizontally scale-out to accomodate large data volumes. 
+    --> MongoDB is consistently ranked as the world’s most popular NoSQL database according to DB-engines and is an example of a document database. 
+
+MongoDB :
+
+The following are some of the benefits and strengths of MongoDB:
+
+   ** Free to use: Since October 2018, MongoDB's updates have been published under the Server Side Public License (SSPL) v1, 
+                   and the database is free to use.
+
+   ** Dynamic schema: As mentioned, this gives you the flexibility to change your data schema without modifying any of your existing data.
+
+   ** Scalability: MongoDB is horizontally scalable, which helps reduce the workload and scale your business with ease.
+
+   ** Manageability: The database doesn’t require a database administrator. 
+                     Since it is fairly user-friendly in this way, it can be used by both developers and administrators.
+
+   ** Speed: It’s high-performing for simple queries.
+
+   ** Flexibility: You can add new columns or fields on MongoDB without affecting existing rows or application performance.
+
+   ** Not Acid Compliant: As a NoSQL database, MongoDB is not ACID compliant. See PostgreSQL above for more about ACID compliance.
+
+   ** MongoDB Atlas (a new feature): MongoDB recently added MongoDB Atlas global cloud database technology to its offerings. 
+                                     This feature allows you to deploy fully-managed MongoDB via AWS, Azure, or GCP. 
+                                     MongoDB Atlas lets you use drivers, integrations, and tools to reduce the time required to manage your database.
+                                     Here's the pricing information from Atlas.
+
+                                     
+Who Should Use It? 
+ 
+     --> MongoDB is a good choice for businesses that have rapid growth or databases with no clear schema definitions
+                     (i.e., you have a lot of unstructured data).
+     --> If you cannot define a schema for your database, if you find yourself denormalizing data schemas, or 
+                if your data requirements and schemas are constantly evolving - as is often the case with 
+                        mobile apps, real-time analytics, content management systems, etc. 

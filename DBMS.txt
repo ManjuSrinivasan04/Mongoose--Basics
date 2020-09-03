@@ -1,0 +1,87 @@
+What is Database?
+
+   => A database is an organized collection of structured information, or data, typically stored electronically in a computer system. 
+   => A database is usually controlled by a database management system (DBMS). 
+   => Together, the data and the DBMS, along with the applications that are associated with them, are referred to as a database system,often shortened to just database.
+
+What is DBMS (Data Base Management System)?
+
+   => Database management System is software which is used to store and retrieve the database.
+   => DBMS provides the interface to perform the various operations like creation, deletion, modification, etc.
+   => DBMS allows the user to create their databases as per their requirement.
+   => DBMS accepts the request from the application and provides specific data through the operating system.
+   => DBMS contains the group of programs which acts according to the user instruction.
+   => It provides security to the database.
+   => For example, Oracle, MySQL, etc..these are some popular DBMS tools.
+
+What is the Purpose?
+
+    -> The main purpose of the database is to operate a large amount of information by storing, retrieving, and managing data.
+    -> There are many dynamic websites on the World Wide Web nowadays which are handled through databases. 
+         >> For example, a model that checks the availability of rooms in a hotel. It is an example of a dynamic website that uses a database.
+    -> There are many databases available like MySQL, Sybase, Oracle, MongoDB, Informix, PostgreSQL, SQL Server, etc.
+    -> Modern databases are managed by the database management system (DBMS).
+
+What is SQL?
+
+     ==> SQL or Structured Query Language is used to operate on the data stored in a database. 
+     ==> SQL depends on relational algebra and tuple relational calculus.
+
+
+What is RDBMS ?
+
+      ** RDBMS stands for Relational Database Management Systems..
+      ** All modern database management systems like SQL, MS SQL Server, IBM DB2, ORACLE, My-SQL and Microsoft Access are based on RDBMS.
+      ** It is called Relational Data Base Management System (RDBMS) because it is based on relational model introduced by E.F. Codd.
+
+How it works?
+
+     << Data is represented in terms of tuples (rows) in RDBMS.
+     << Relational database is most commonly used database. 
+     << It contains number of tables and each table has its own primary key.
+     << Due to a collection of organized set of tables, data can be accessed easily in RDBMS.
+
+Types of databases available in the market :-
+
+      ** Centralised database.
+      ** Distributed database.
+      ** Personal database.
+      ** End-user database.
+      ** Commercial database.
+      ** NoSQL database.
+      ** Operational database.
+      ** Relational database.
+      ** Cloud database.
+      ** Object-oriented database.
+      ** Graph database.
+
+      
+
+Difference between DBMS and RDBMS :-
+
+1)	DBMS applications store data as file.	
+              RDBMS applications store data in a tabular form.
+
+2)	In DBMS, data is generally stored in either a hierarchical form or a navigational form.	
+              In RDBMS, the tables have an identifier called primary key and the data values are stored in the form of tables.
+
+3)	Normalization is not present in DBMS.	
+              Normalization is present in RDBMS.
+
+4)	DBMS does not apply any security with regards to data manipulation.	
+               RDBMS defines the integrity constraint for the purpose of ACID (Atomocity, Consistency, Isolation and Durability) property.
+
+5)	DBMS uses file system to store data, so there will be no relation between the tables.	
+                In RDBMS, data values are stored in the form of tables, so a relationship between these data values will be stored in the form of a table as well.
+
+6)	DBMS has to provide some uniform methods to access the stored information.	
+                 RDBMS system supports a tabular structure of the data and a relationship between them to access the stored information.
+
+7)	DBMS does not support distributed database.	
+                 RDBMS supports distributed database.
+
+8)	DBMS is meant to be for small organization and deal with small data. it supports single user.	
+                  RDBMS is designed to handle large amount of data. it supports multiple users.
+
+9)	Examples of DBMS are file systems, xml etc.	
+                  Example of RDBMS are mysql, postgre, sql server, oracle etc.
