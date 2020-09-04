@@ -1,0 +1,26 @@
+{
+  "name": "docs_mongoose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManjuSrinivasan/Database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManjuSrinivasan/Database/issues"
+  },
+  "homepage": "https://github.com/ManjuSrinivasan/Database#readme",
+  "description": ""
+}

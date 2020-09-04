@@ -69,10 +69,10 @@ NOSQL VS RDBMS :
       ** Your workloads don't require ACID guarantees              >> ACID guarantees are required
       ** Your data is dynamic and frequently changes               >> Your data is predictable and highly structured
       ** Data can be expressed without relationships               >> Data is best expressed relationally
-      ** You need fast writes and write safety isn't critical	   >> Write safety is a requirement
-      ** Data retrieval is simple and tends to be flat	           >> You work with complex queries and reports
+      ** You need fast writes and write safety isn't critical	  >> Write safety is a requirement
+      ** Data retrieval is simple and tends to be flat	            >> You work with complex queries and reports
       ** Your data requires a wide geographic distribution         >> Your users are more centralized
-      ** Your application will be deployed with public clouds	   >> Your application will be deployed to large, high-end hardware
+      ** Your application will be deployed with public clouds	  >> Your application will be deployed to large, high-end hardware
 
 The five critical differences of SQL vs NoSQL:
 
