@@ -5,7 +5,7 @@ let Schema=mongoose.Schema;
 module.exports=mongoose.model('Docs',Schema({     //let us to use this model outside 
   _id:Schema.Types.ObjectId,
   title:String,
-  Description:String,
+  description:String,
   user:{
     required:true,
     type:Schema.Types.ObjectId,
